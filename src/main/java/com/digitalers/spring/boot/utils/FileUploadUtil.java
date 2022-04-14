@@ -19,7 +19,7 @@ public class FileUploadUtil {
 			 * application-prod.yml
 			 */
 
-			String rutaCarpetaImg = "C:\\Users\\Rodrigo Kameyha\\Documents\\workspace-spring-tool-suite-4-4.12.0.RELEASE\\carrito-compras-spring-boot\\src\\main\\resources\\static\\img";
+			String rutaCarpetaImg = "C:\\Users\\Rodrigo\\Documents\\workspace-spring-tool-suite-4-4.12.0.RELEASE\\carrito-compras-spring-boot\\src\\main\\resources\\static\\img";
 			String fileName = multipartFile.getOriginalFilename();
 			Path uploadPath = Paths.get(rutaCarpetaImg);
 
